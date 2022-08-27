@@ -1,28 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/img/ChromatixXs_Profile4x.png">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/img/ChromatixXs_Profile4x.png"
+    />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/54c6dcfa02.js"
+      crossorigin="anonymous"
+    ></script>
     <title>ChromatixX | Welcome!</title>
-</head>
-<body>
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="img/ChromatixXs_Profile4x.png" ></a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">VIDEO</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
+  </head>
+  <body>
+    <section class="header" id="header">
+      <nav>
+        <a href="index.html"><img src="img/ChromatixXs_Profile4x.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="#header">ABOUT</a></li>
+            <li><a href="#video">VIDEO</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1 class="title">
+          ช่อง <span>"พอดแคสต์"</span> ที่ดีที่สุดในสาธิตสนามบิน
+        </h1>
+        <div class="p-box">
+          <p>
+            เอาอีกเอาอีกแล้วหรอไม่จบไม่สิ้นน่ะอีดอกมึงเป็นใครแสดงตัวมาเลยถ้าเก่งจริงอ่ะแสดงตัวมาเมื่อมึงคิดที่จะมาทำร้ายประเทศชาติโดยเอาเอาเสียงที่ชั่วๆเนี่ยมันไม่ใช่อย่างนะเว้ยกฎหมายบ้านเมืองมีจริงแสดงตัวมาเลยจะได้รู้ได้เห็นนมเป็นใครและอีฝรั่งตาน้ำข้าวที่โผล่มาเนี่ยตะโกนตะโกนน่ะมึงมาอาศัยประเทศกูอยู่ประเทศชาติมึงอ่ะเค้าไล่มึงออกมึงออกจากปะเทศแล้วหรอชั่วสุดๆ
+          </p>
+          <a
+            href="https://www.facebook.com/ChromatixX-104119371916103"
+            target="_blank"
+            class="hero-btn"
+            >กดเพื่อรับชมคลิปต่าง ๆ ของพวกเรา</a
+          >
+        </div>
+      </div>
     </section>
-
-</body>
+    <section class="video" id="video">
+      <h1>วิดีโอของพวกเรา!</h1>
+      <a
+        href="https://www.youtube.com/channel/UCca7tNJIbgh8E3ZTWBZJMBg"
+        target="_blank"
+        class="video-btn"
+        >รับชมเพิ่มเติมได้ที่ Youtube</a
+      >
+      <div class="row">
+        <div class="video-col">
+          <iframe
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/7wnuVjoRe24"
+            title="ใส่หน้าผี.exe"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="video-col">
+          <iframe
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/qFhfrcf00Pk"
+            title="[ Blood & Iron ] เลือดและเหล็ก (Highlights and Funny moments)"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
