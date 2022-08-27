@@ -217,6 +217,13 @@ p{
   transition: .5s;
 }
 
+@media(max-width: 2160px){
+  iframe{
+    width: 640px;
+    height: 360px;
+  }
+}
+
 @media(max-width: 700px){
   .row{
     flex-direction: column;
